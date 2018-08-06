@@ -155,7 +155,7 @@
 \newcommand\programming[1]{ 
 	\renewcommand{\programming}{
 		\begin{tikzpicture}
-        	\node [above right] at (0, 4) {$0 \: LOC \: \arrow{3.2} \: 5000 \: LOC$};
+        	% \node [above right] at (0, 4) {$0 \: LOC \: \arrow{3.2} \: 5000 \: LOC$};
 			\foreach [count=\i] \x/\y in {#1}{
 				\draw[fill=maingray,maingray] (0,\i) rectangle (6,\i+0.4);
 				\draw[fill=white,mainblue](0,\i) rectangle (\y,\i+0.4);
@@ -164,6 +164,22 @@
 		\end{tikzpicture}
 	}
 }
+
+% Command for printing otherskill progress bars
+\newcommand\otherskills[1]{ 
+	\renewcommand{\otherskills}{
+		\begin{tikzpicture}
+        	% \node [above right] at (0, 4) {$0 \: LOC \: \arrow{3.2} \: 5000 \: LOC$};
+			\foreach [count=\i] \x/\y in {#1}{
+				\draw[fill=maingray,maingray] (0,\i) rectangle (6,\i+0.4);
+				\draw[fill=white,mainblue](0,\i) rectangle (\y,\i+0.4);
+				\node [above right] at (0,\i+0.35) {\x};
+			}
+		\end{tikzpicture}
+	}
+}
+
+
 \newcommand\education[1]{ 
 	\renewcommand{\education}{
 		{#1}
@@ -206,22 +222,13 @@
               \end{array}
               $} 
             & \cvnumberphone\\}
-            
-      \ifthenelse{\equal{\href{\cvsite}{\cvsite}}{}}{}{
-            {$
-              \begin{array}{l}
-              \hspace{2.8mm} \huge \textnormal{\textcolor{test}{\faGlobe}}
-              \end{array}
-              $} 
-            & \href{http://\cvsite}{\cvsite} \\}
       \ifthenelse{\equal{\cvmail}{}}{}{
             {$
               \begin{array}{l}
               \hspace{2.5mm} \huge \textnormal{\textcolor{yt}{\faEnvelopeO}}
               \end{array}
               $} 
-            & \href{mailto:\cvmail}{\cvmail} \\}
-      
+            & \href{mailto:\cvmail}{\cvmail} \\}      
        \ifthenelse{\equal{\cvlinkedin}{}}{}{
             {$
               \begin{array}{l}
@@ -229,21 +236,15 @@
               \end{array}
               $} & \href{https://www.linkedin.com\cvlinkedin}{\cvlinkedin} \\
             }  
-        \ifthenelse{\equal{\cvgithub}{}}{}{
-            {$
-              \begin{array}{l}
-              \hspace{3mm} \huge \textnormal{\faGithub}
-              \end{array}
-              $} & \href{https://www.github.com/\cvgithub}{\cvgithub} \\
-            }   
+
             
     \end{tabular}
 
     %------------------------------------------------
     \vspace{3mm}
-    \profilesection{Technical Skills}{1.2cm}
+    \profilesection{Technische Skills}{0.8cm}
     
-    {\large \textbf{Overview}}
+    {\large \textbf{Übersicht}}
 
 	\skills
         
@@ -251,12 +252,21 @@
         
         \vspace{3mm}
        
-	 {\large \textbf{Programming}} 
+	 {\large \textbf{Programmieren}} 
 
 		 \programming
          
         \vspace{3mm}
-        \profilesection{Education}{3cm} 
+		
+	 {\large \textbf{sonstige}} 
+
+		 \otherskills
+         
+        \vspace{3mm}
+		
+
+		
+        \profilesection{Ausbildung}{2.2cm} 
         
         \education
       

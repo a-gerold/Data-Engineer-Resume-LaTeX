@@ -16,33 +16,47 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+\documentclass[a4paper]{twentysecondcv} % a4paper for A4
 
 % Command for printing skill overview bubbles
 \newcommand\skills{ 
 ~
 	\smartdiagram[bubble diagram]{
-        \textbf{Data}\\\textbf{Engineering},
-        \textbf{Full Stack}\\\textbf{Dev},
-        \textbf{~~~~~~~~OOP~~~~~~~~~},
-        \textbf{~~~~~~Machine~~~~~~}\\\textbf{~~Learning~~},
-        \textbf{~~~~~DevOps~~~~~}
+        \textbf{Software}\\\textbf{Entwicklung},
+        \textbf{~~~~~Angular~~~~~},
+        \textbf{~~~~~~~~.NET~~~~~~~~~},
+        \textbf{~~OOP~~}\\\textbf{~~OOD~~},
+        \textbf{~~~~~~REST~~~~~~},
+        \textbf{~~Datenbanken~~},
+        \textbf{Automotive}
     }
 }
 
 % Programming skill bars
-\programming{{C $\textbullet$ C++  $\textbullet$ R / 3}, {JavaScript $\textbullet$ SQL $\textbullet$ \large \LaTeX / 3.5}, {Scala $\textbullet$ Java $\textbullet$ Python / 5}}
+\programming{
+	{C $\textbullet$ C++ $\textbullet$ Java / 1},
+	{SQL $\textbullet$ CSS $\textbullet$  HTML / 3.5},
+	{C\# $\textbullet$ TypeScript $\textbullet$ JavaScript / 5}}
+
+\otherskills{
+	{Ubuntu $\textbullet$ LXD $\textbullet$ Samba / 4},
+	{Windows Server $\textbullet$ Hyper-V $\textbullet$  IIS / 5},
+	{GIT $\textbullet$ Jira $\textbullet$ GitLab / 5},
+	{Netzwerke $\textbullet$ Routing $\textbullet$ DNS / 5}}
 
 % Projects text
 \education{
-\textbf{MSc., Computer Science} (GPA: 3.7) \\
-Specialization: Data Mining \\
-University of Guelph \\
-2015 - 2017 | Guelph, Canada
+\textbf{Master of Science (Note: 1,8)
+\\Elektro- und Informationstechnik} \\
+Nano- und Quantenelektronik \\
+Technische Universität München \\
+2013 - 2016
 
-\textbf{BEng., Computer Engineering} (GPA: 4.0) \\
-University of Pune \\
-2009 - 2013 | Pune, India
+\textbf{Bachelor of Engineering (Note: 1,6)
+\\Elektro- und Informationstechnik} \\
+Kommunikationstechnik \\
+Hochschule München \\
+2010 - 2013
 }
 
 %----------------------------------------------------------------------------------------
@@ -50,15 +64,13 @@ University of Pune \\
 %----------------------------------------------------------------------------------------
 % If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
 
-\cvname{HARSH GADGIL} % Your name
-\cvjobtitle{ Data Engineer } % Job
+\cvname{Andreas GEROLD} % Your name
+\cvjobtitle{Entwickler und Ingenieur} % Job
 % title/career
 
-\cvlinkedin{/in/hsgadgil}
-\cvgithub{opensorceror}
-\cvnumberphone{(647) 221 7999} % Phone number
-\cvsite{hgadgil.com} % Personal website
-\cvmail{harsh.gadgil@gmail.com} % Email address
+\cvlinkedin{/in/a-gerold}
+\cvnumberphone{0160 985 23 430} % Phone number
+\cvmail{a.gerold@gmail.com} % Email address
 
 %----------------------------------------------------------------------------------------
 
@@ -70,64 +82,62 @@ University of Pune \\
 %	 EXPERIENCE
 %----------------------------------------------------------------------------------------
 
-\section{Experience}
+\section{Erfahrung}
 
 \begin{twenty} % Environment for a list with descriptions
 \twentyitem
-    	{April 2017 -}
-		{Present}
-        {Machine Learning Engineer}
-        {\href{http://www.bell.ca/}{Bell}}
+    	{Sep 2016 -}
+		{heute}
+        {Softwareentwickler}
+        {\href{https://www.magna.com/de}{Magna Steyr Engineering Deutschland}}
         {}
         {\begin{itemize}
-        \item Focused on developing machine learning models, production deployment,  unit testing, scaling and performance tuning
-        \item Projects: SMS spam detection, Robocall detection 
-        
-        Tools: Kafka, Flume, Spark, Hive, Solr, Jupyter Lab, Kubernetes, Docker
-        
-        Awards: Merit Gold (2x), Merit Platinum
-        \item Presented several talks on Machine Learning and Big Data at university hackathons and Bell internal conferences
-        \item Conducted interviews for junior, and senior, data engineering roles
+        \item Mitwirken beim Aufbau eines fünfköpfigen SCRUM-Teams
+        \item Entwicklung eines RESTful, Data-Warehouse-artigen, queryablen Backends mit OASIS Standard (ODATA) unter Verwendung der .NET WebApi (C\#), EntityFramework, OWIN Pipeline, Dependency Injection und WebSockets (SignalR)
+        \item Anbindung verschiedener Datenbanken an das Backend
+        \item Entwicklung von Angular Komponenten, Direktiven und Services inklusive Frontends mit FlexBox und Material Design
+        \item Schärfen von Userstories mit dem Productowner, Konzeption von Funktionen mit dem Productowner
+        \item Konfiguration und Wartung des unter Linux selbst gehosteten CI / CD / Repository Portals GITLab
         \end{itemize}}
         \\
 	\twentyitem
-    	{Sep 2015 -}
-		{May 2016}
-        {Co-founder \& Full Stack Developer}
-        {\href{http://www.localxchange.ca/}{LocalXChange Inc.}}
+    	{Dez 2014 -}
+		{Sep 2016}
+        {Entwicklungsingenieur}
+        {\href{https://www.magna.com/de}{Magna Steyr Engineering Deutschland}}
         {}
         {
         {\begin{itemize}
-        \item In a team of 2, raised \$8,000 in funding from The Hub incubator at the University of Guelph, to develop a hyperlocal content platform, aimed at delivering local news and events to local users in realtime
-        \item In a team of 3, built hybrid mobile \& web apps with Ionic, Angular.js and MongoDB, surpassing 1,000 users within a month since launch
-        \item Met with the Mayor of Guelph and University of Guelph officials to discuss how the app can help boost Guelph Tourism 
+        \item Entwurf und Implementierung einer MS SQL Datenbank zur \\ 
+        Speicherung der Prozess- und Projektdaten
+        \item Implementierung verschiedener Parser mit C\#
+        \item Testen von Kunden- und Systemfunktionen von Fahrzeug-Prototypen
     \end{itemize}}
         }
     \\   
     \twentyitem
-   		{Sep 2015 -}
-		{Dec 2016}
-        {Graduate Teaching Assistant}
-        {\href{http://www.uoguelph.ca}{University of Guelph}}
+   		{Mär 2013 -}
+		{Dez 2014}
+        {Entwicklungsingenieur 50\%}
+        {\href{https://www.magna.com/de}{Magna Steyr Engineering Deutschland}}
         {}
         {
         {\begin{itemize}
-        \item TA for CIS*2430 (OOP), CIS*4150 (Software Reliability \& Testing) and CIS*3530 (Database Systems \& Concepts) courses
-        \item Delivered several lectures for CIS*3530 when professor was away at a conference
+        \item Teilzeitstelle parallel zum Studium
+        \item Tausch und Flashen von Steuergeräten in Fahrzeug-Prototypen
+        \item Fehleranalyse auf BUS-Ebene, hauptsächlich CAN-BUS
     \end{itemize}}
         }
      \\
      \twentyitem
-   		{Dec 2013 -}
-		{Apr 2015}
-        {Test Automation Engineer}
-        {\href{http://www.synechron.com/}{Synechron}}
+   		{Mär 2010 -}
+		{Sep 2012}
+        {Werkstudent (20h/Woche)}
+        {\href{https://www.magna.com/de}{Magna Steyr Engineering Deutschland}}
         {}
         {
         \begin{itemize}
-        \item Primarily developed test automation libraries using Java and C\#, scripts and CI / CD pipelines
-        \item Lead development of a Keyword Driven \& Behavior Driven test framework for \href{https://www.microsoft.com/en-ca/dynamics/crm.aspx}{Microsoft Dynamics CRM}. Earned monetary award \& client appreciation.
-        \item Demonstrated that rewriting an in-house test framework for \href{https://www.microsoft.com/en-ca/dynamics/erp-ax-overview.aspx}{Microsoft Dynamics AX}, using an open source library (White) instead of a proprietary one (Coded UI), would help the team save \$4K annually by downgrading Microsoft Visual Studio
+        \item Verschiedene Projeke in Zusammenhang mit der Systemintegration in der Fahrzeugentwicklung
     \end{itemize}
     	}
         
@@ -137,25 +147,43 @@ University of Pune \\
 %----------------------------------------------------------------------------------------
 %	 RESEARCH
 %----------------------------------------------------------------------------------------
-\section{Research}
+\section{Abschlussarbeiten}
 \begin{twenty}
 	\twentyitem
-    	{2015 - 2017}
-		{}
-        {MSc. Candidate, Graduate Research Assistant}
-        {\href{http://www.uoguelph.ca/}{University of Guelph}}
+    	{Sep 2015 -}
+		{Feb 2016}
+        {Masterarbeit (Note: 1,3)}
+        {\href{https://www.tum.de/}{Technische Universität München}}
         {}
         {
-       	\textbf{Thesis}: Data Integration from Multiple Historical Sources to Study Canadian Casualties of WWI
+       	\textbf{Titel}: Datenanalyse und Modellgenerierung für das Sichtfeld von Fahrzeug RADAR und LIDAR Sensoren
         {\begin{itemize}
-        \item Proposed a stepwise deterministic method to integrate datasets without labeled data. The method performs comparably with a method that incorporates a Support Vector Machine
-        \item Prepared a longitudinal dataset to enable comprehensive analyses about WWI Canadian society and military, seeding further research
-        \item \textbf{Tools}: R, Python, scikit-learn, pandas \vspace{2mm}
+        \item Analyse von realen Sensor Messdaten mit MatLab zur Ableitung von Parametern wie Sichtweite, Öffnungswinkel, etc.
+        \item Modellierung von Störungen für den Fahrsimulator mit C++
+        \item Parametrierung der Störmodelle durch die abgeleiteten Größen aus den realen Messdaten
+        \item Verifikation der Störmodelle durch Anwendung auf die Ground-Truth und Vergleich mit den realen Daten
+        \item \textbf{Tools}: MatLab, Visual Studio 2015 (C++) \vspace{2mm}
 		\end{itemize}}
         }
+    \twentyitem
+    {Sep 2012 -}
+    {Feb 2016}
+    {Bachelorarbeit (Note: 1,3)}
+    {\href{https://www.hm.edu/}{Hochschule München}}
+    {}
+    {
+    	\textbf{Titel}: Automatisierung von Tests zur Hochvoltsicherheit von Elektro- und Hybridfahrzeugen
+    	{\begin{itemize}
+    			\item Bestandsaufnahme und Bewertung der existierenden Testfälle
+    			\item Identifikation von nutzbaren Schnittstellen zu den Fahrzeugen
+    			\item Implementierung ausgewählter Testfälle mit der Software Tracetronik ECU-Test
+    			\item Verifikation und Bugfixing der Implementierung durch Testdurchführung am Fahrzeug
+    			\item \textbf{Tools}: \href{https://www.tracetronic.de/produkte/ecu-test/}{Tracetronik ECU-Test} \vspace{2mm}
+    	\end{itemize}}
+    }
 \end{twenty}
 
-\section{Publications}
-L. Antonie, H. Gadgil, G. Grewal, and K. Inwood, “Historical Data Integration - A Study of WWI Canadian Soldiers,” in 2016 IEEE 16th International Conference on Data Mining Workshops (ICDMW), pp. 186-193, IEEE, 2016. \vspace{2mm}
+\section{Interessen}
+OpenSource, Netzwerktechnik, Mountainbiken, Klettern, Skitouren
 
 \end{document} 
