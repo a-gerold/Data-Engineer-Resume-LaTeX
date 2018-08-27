@@ -1,0 +1,511 @@
+This is XeTeX, Version 3.14159265-2.6-0.99999 (MiKTeX 2.9.6745 64-bit) (preloaded format=xelatex 2018.8.6)  27 AUG 2018 13:34
+entering extended mode
+**./formal_letter_2.tex
+(formal_letter_2.tex
+LaTeX2e <2018-04-01> patch level 5
+
+("C:\Users\ga010342\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scr
+lttr2.cls"
+Document Class: scrlttr2 2018/03/30 v3.25 KOMA-Script document class (letter)
+
+("C:\Users\ga010342\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scr
+kbase.sty"
+Package: scrkbase 2018/03/30 v3.25 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+("C:\Users\ga010342\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scr
+base.sty"
+Package: scrbase 2018/03/30 v3.25 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+("C:\Users\ga010342\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval
+.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Users\ga010342\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scr
+lfile.sty"
+Package: scrlfile 2018/03/30 v3.25 KOMA-Script package (loading files)
+)))
+Class scrlttr2 Info: File `scrsize12pt.clo' used instead of
+(scrlttr2)           file `scrsize12.clo' to setup font sizes on input line 183
+5.
+
+("C:\Users\ga010342\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\scr
+size12pt.clo"
+File: scrsize12pt.clo 2018/03/30 v3.25 KOMA-Script font size class option (12pt
+)
+)
+("C:\Users\ga010342\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\typ
+earea.sty"
+Package: typearea 2018/03/30 v3.25 KOMA-Script package (type area)
+\ta@bcor=\skip41
+\ta@div=\count80
+\ta@hblk=\skip42
+\ta@vblk=\skip43
+\ta@temp=\skip44
+\footheight=\skip45
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 12
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 448.13095pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 2.4185pt
+(typearea)              \oddsidemargin  = 2.4185pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 635.5pt
+(typearea)              \topmargin      = -41.72441pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
+(typearea)              on input line 1706.
+)
+\c@letter=\count81
+)
+Class scrlttr2 Info: Letter-Class-Option `DIN' loaded on input line 29.
+
+("C:\Users\ga010342\AppData\Local\Programs\MiKTeX 2.9\tex\latex\koma-script\DIN
+.lco"
+File: DIN.lco 2018/03/30 v3.25 KOMA-Script letter-class-option
+)
+("C:\Users\ga010342\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.st
+y"
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+("C:\Users\ga010342\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 105.
+ ("C:\Users\ga010342\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)) ("C:\Users\ga010342\AppData\Local\Programs\MiKTeX 2.9\tex\latex\stix\stix.st
+y"
+Package: stix 2018/04/17 v1.1.3-latex STIX fonts support package
+
+("C:\Users\ga010342\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\textcomp.s
+ty"
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+Package textcomp Info: Changing ? sub-encoding to TS1/0 on input line 80.
+
+("C:\Users\ga010342\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.def
+"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 76.
+LaTeX Font Info:    Encoding `OML' has changed to `LS1' for symbol font
+(Font)              `letters' in the math version `normal' on input line 76.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> LS1/stix/m/it on input line 76.
+LaTeX Font Info:    Encoding `OML' has changed to `LS1' for symbol font
+(Font)              `letters' in the math version `bold' on input line 76.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> LS1/stix/m/it on input line 76.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 77.
+LaTeX Font Info:    Encoding `OT1' has changed to `LS1' for symbol font
+(Font)              `operators' in the math version `normal' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> LS1/stix/m/n on input line 77.
+LaTeX Font Info:    Encoding `OT1' has changed to `LS1' for symbol font
+(Font)              `operators' in the math version `bold' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> LS1/stix/m/n on input line 77.
+\symbold-operators=\mathgroup4
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 79.
+LaTeX Font Info:    Encoding `OMS' has changed to `LS1' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 79.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> LS1/stixscr/m/n on input line 79.
+LaTeX Font Info:    Encoding `OMS' has changed to `LS1' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 79.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> LS1/stixscr/m/n on input line 79.
+\symsymbols2=\mathgroup5
+\symsymbols3=\mathgroup6
+\symsymbols4=\mathgroup7
+\symintegrals=\mathgroup8
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 84.
+LaTeX Font Info:    Encoding `OMX' has changed to `LS2' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 8
+4.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> LS2/stixex/m/n on input line 84.
+LaTeX Font Info:    Encoding `OMX' has changed to `LS2' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 84.
+
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> LS2/stixex/m/n on input line 84.
+\symarrows1=\mathgroup9
+\symarrows2=\mathgroup10
+\symarrows3=\mathgroup11
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  LS1/stix/m/it --> LS1/stix/b/it on input line 88.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  LS1/stix/m/n --> LS1/stix/b/n on input line 89.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  LS1/stixscr/m/n --> LS1/stixscr/b/n on input line 90.
+LaTeX Font Info:    Overwriting symbol font `symbols2' in version `bold'
+(Font)                  LS1/stixfrak/m/n --> LS1/stixfrak/b/n on input line 91.
+
+LaTeX Font Info:    Overwriting symbol font `symbols3' in version `bold'
+(Font)                  LS1/stixbb/m/n --> LS1/stixbb/b/n on input line 92.
+LaTeX Font Info:    Overwriting symbol font `symbols4' in version `bold'
+(Font)                  LS1/stixbb/m/it --> LS1/stixbb/b/it on input line 93.
+LaTeX Font Info:    Overwriting symbol font `integrals' in version `bold'
+(Font)                  LS2/stixcal/m/n --> LS2/stixcal/b/n on input line 94.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  LS2/stixex/m/n --> LS2/stixex/b/n on input line 95.
+LaTeX Font Info:    Overwriting symbol font `arrows1' in version `bold'
+(Font)                  LS1/stixsf/m/n --> LS1/stixsf/b/n on input line 96.
+LaTeX Font Info:    Overwriting symbol font `arrows2' in version `bold'
+(Font)                  LS1/stixsf/m/it --> LS1/stixsf/b/it on input line 97.
+LaTeX Font Info:    Overwriting symbol font `arrows3' in version `bold'
+(Font)                  LS2/stixtt/m/n --> LS2/stixtt/b/n on input line 98.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 99.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 106.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 108.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 109.
+LaTeX Info: Redefining \vdots on input line 1518.
+LaTeX Info: Redefining \cdots on input line 1522.
+LaTeX Info: Redefining \not on input line 2144.
+)
+("C:\Users\ga010342\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.s
+ty"
+Package: babel 2018/06/05 3.22 The Babel package
+
+("C:\Users\ga010342\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.
+def"
+File: switch.def 2018/06/05 3.22 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+
+("C:\Users\ga010342\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.c
+fg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\ga010342\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-german\ge
+rman.ldf"
+Language: german 2018/03/29 v2.10 German support for babel (pre-1996 orthograph
+y)
+
+("C:\Users\ga010342\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-german\ge
+rmanb.ldf"
+Language: germanb 2018/03/29 v2.10 German support for babel (pre-1996 orthograp
+hy)
+
+("C:\Users\ga010342\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.d
+ef"
+File: babel.def 2018/06/05 3.22 Babel common definitions
+\babel@savecnt=\count82
+\U@D=\dimen102
+
+("C:\Users\ga010342\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\xebabel
+.def"
+("C:\Users\ga010342\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabe
+l.def"))
+\bbl@dirlevel=\count83
+)
+Package babel Info: Making " an active character on input line 135.
+)))
+
+Class scrlttr2 Warning: \date changes the internal \LaTeX date only.
+(scrlttr2)              You should note that this changes the default
+(scrlttr2)              value of variable `date' only as long as someone
+(scrlttr2)              uses `\setkomavar` to change the content of
+(scrlttr2)              variable `date'.
+(scrlttr2)              Therefore, usage of `\setkomavar' is recommended
+(scrlttr2)              to change the letter's date on input line 47.
+
+(formal_letter_2.aux)
+\openout1 = `formal_letter_2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 51.
+
+("C:\Users\ga010342\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 51.
+LaTeX Font Info:    Try loading font information for LS1+stix on input line 51.
+
+
+("C:\Users\ga010342\AppData\Local\Programs\MiKTeX 2.9\tex\latex\stix\ls1stix.fd
+"
+File: ls1stix.fd 2015/04/17 v1.1.2-latex STIX LS1 font definitions
+)
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 51.
+LaTeX Font Info:    Try loading font information for LS2+stix on input line 51.
+
+
+("C:\Users\ga010342\AppData\Local\Programs\MiKTeX 2.9\tex\latex\stix\ls2stix.fd
+"
+File: ls2stix.fd 2015/04/17 v1.1.2-latex STIX LS2 font definitions
+)
+LaTeX Font Info:    ... okay on input line 51.
+LaTeX Font Info:    Try loading font information for T1+stix on input line 51.
+
+("C:\Users\ga010342\AppData\Local\Programs\MiKTeX 2.9\tex\latex\stix\t1stix.fd"
+File: t1stix.fd 2015/04/17 v1.1.2-latex STIX T1 font definitions
+)
+Class scrlttr2 Info: no date found for language `american'
+(scrlttr2)           --> skipped on input line 51.
+Class scrlttr2 Info: no date found for language `australien'
+(scrlttr2)           --> skipped on input line 51.
+Class scrlttr2 Info: no date found for language `british'
+(scrlttr2)           --> skipped on input line 51.
+Class scrlttr2 Info: no date found for language `canadian'
+(scrlttr2)           --> skipped on input line 51.
+Class scrlttr2 Info: no date found for language `newzealand'
+(scrlttr2)           --> skipped on input line 51.
+Class scrlttr2 Info: no date found for language `UKenglish'
+(scrlttr2)           --> skipped on input line 51.
+Class scrlttr2 Info: no date found for language `ukenglish'
+(scrlttr2)           --> skipped on input line 51.
+Class scrlttr2 Info: no date found for language `USenglish'
+(scrlttr2)           --> skipped on input line 51.
+Class scrlttr2 Info: no date found for language `usenglish'
+(scrlttr2)           --> skipped on input line 51.
+Package scrbase Info: activating german \yourrefname on input line 51.
+Package scrbase Info: activating german \yourmailname on input line 51.
+Package scrbase Info: activating german \myrefname on input line 51.
+Package scrbase Info: activating german \customername on input line 51.
+Package scrbase Info: activating german \invoicename on input line 51.
+Package scrbase Info: activating german \subjectname on input line 51.
+Package scrbase Info: activating german \headfromname on input line 51.
+Package scrbase Info: activating german \datename on input line 51.
+Package scrbase Info: activating german \phonename on input line 51.
+Package scrbase Info: activating german \mobilephonename on input line 51.
+Package scrbase Info: activating german \faxname on input line 51.
+Package scrbase Info: activating german \emailname on input line 51.
+Package scrbase Info: activating german \wwwname on input line 51.
+Package scrbase Info: activating german \bankname on input line 51.
+Class scrlttr2 Info: no date found for language `ngerman'
+(scrlttr2)           --> skipped on input line 51.
+Class scrlttr2 Info: no date found for language `austrian'
+(scrlttr2)           --> skipped on input line 51.
+Class scrlttr2 Info: no date found for language `naustrian'
+(scrlttr2)           --> skipped on input line 51.
+Class scrlttr2 Info: no date found for language `swissgerman'
+(scrlttr2)           --> skipped on input line 51.
+Class scrlttr2 Info: no date found for language `nswissgerman'
+(scrlttr2)           --> skipped on input line 51.
+Class scrlttr2 Info: no date found for language `acadian'
+(scrlttr2)           --> skipped on input line 51.
+Class scrlttr2 Info: no date found for language `canadien'
+(scrlttr2)           --> skipped on input line 51.
+Class scrlttr2 Info: no date found for language `francais'
+(scrlttr2)           --> skipped on input line 51.
+Class scrlttr2 Info: no date found for language `french'
+(scrlttr2)           --> skipped on input line 51.
+Class scrlttr2 Info: no date found for language `italian'
+(scrlttr2)           --> skipped on input line 51.
+Class scrlttr2 Info: no date found for language `spanish'
+(scrlttr2)           --> skipped on input line 51.
+Class scrlttr2 Info: no date found for language `croatian'
+(scrlttr2)           --> skipped on input line 51.
+Class scrlttr2 Info: no date found for language `dutch'
+(scrlttr2)           --> skipped on input line 51.
+Class scrlttr2 Info: no date found for language `finnish'
+(scrlttr2)           --> skipped on input line 51.
+Class scrlttr2 Info: no date found for language `norsk'
+(scrlttr2)           --> skipped on input line 51.
+Class scrlttr2 Info: no date found for language `swedish'
+(scrlttr2)           --> skipped on input line 51.
+Class scrlttr2 Info: no date found for language `polish'
+(scrlttr2)           --> skipped on input line 51.
+Class scrlttr2 Info: no date found for language `czech'
+(scrlttr2)           --> skipped on input line 51.
+Class scrlttr2 Info: no date found for language `slovak'
+(scrlttr2)           --> skipped on input line 51.
+Class scrlttr2 Info: trying to activate captions and date
+(scrlttr2)           of language `german' on input line 51.
+Class scrlttr2 Info: used language is `german'.
+(scrlttr2)           Supported languages are: `english', `UKenglish',
+(scrlttr2)           `ukenglish', `british', `american', `USenglish',
+(scrlttr2)           `usenglish', `australian`,`canadian', `newzealand',
+(scrlttr2)           `german', `ngerman', `austrian', `naustrian',
+(scrlttr2)           `swissgerman', `nswissgermsn',
+(scrlttr2)           `acadian', `canadien', `francais', `french', 
+(scrlttr2)           `dutch', `italian', `spanish', `polish',
+(scrlttr2)           `croatian', `finnish', `norsk', `swedish',
+(scrlttr2)           `czech', `slovak' on input line 51.
+
+Foldmarks: yes
+Head of first page
+Foot of first page
+Address (backaddress, addressee)
+LaTeX Font Info:    Try loading font information for LS1+stixscr on input line 
+67.
+
+("C:\Users\ga010342\AppData\Local\Programs\MiKTeX 2.9\tex\latex\stix\ls1stixscr
+.fd"
+File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
+)
+LaTeX Font Info:    Try loading font information for LS2+stixex on input line 6
+7.
+
+("C:\Users\ga010342\AppData\Local\Programs\MiKTeX 2.9\tex\latex\stix\ls2stixex.
+fd"
+File: ls2stixex.fd 2015/04/17 v1.1.2-latex STIX extentions LS2 font definitions
+
+)
+LaTeX Font Info:    Try loading font information for LS1+stixfrak on input line
+ 67.
+
+("C:\Users\ga010342\AppData\Local\Programs\MiKTeX 2.9\tex\latex\stix\ls1stixfra
+k.fd"
+File: ls1stixfrak.fd 2015/04/17 v1.1.2-latex STIX fraktur LS1 font definitions
+)
+LaTeX Font Info:    Try loading font information for LS1+stixbb on input line 6
+7.
+
+("C:\Users\ga010342\AppData\Local\Programs\MiKTeX 2.9\tex\latex\stix\ls1stixbb.
+fd"
+File: ls1stixbb.fd 2015/04/17 v1.1.2-latex STIX blackboard LS1 font definitions
+
+)
+LaTeX Font Info:    Try loading font information for LS2+stixcal on input line 
+67.
+
+("C:\Users\ga010342\AppData\Local\Programs\MiKTeX 2.9\tex\latex\stix\ls2stixcal
+.fd"
+File: ls2stixcal.fd 2015/04/17 v1.1.2-latex STIX calligraphic LS2 font definiti
+ons
+)
+LaTeX Font Info:    Try loading font information for LS1+stixsf on input line 6
+7.
+
+("C:\Users\ga010342\AppData\Local\Programs\MiKTeX 2.9\tex\latex\stix\ls1stixsf.
+fd"
+File: ls1stixsf.fd 2015/04/17 v1.1.2-latex STIX sans-serif LS1 font definitions
+
+)
+LaTeX Font Info:    Try loading font information for LS2+stixtt on input line 6
+7.
+
+("C:\Users\ga010342\AppData\Local\Programs\MiKTeX 2.9\tex\latex\stix\ls2stixtt.
+fd"
+File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
+
+)
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 67.
+
+("C:\Users\ga010342\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Location field: empty
+Title: no
+Subject: no
+[1
+
+
+
+] [2] (formal_letter_2.aux) ) 
+Here is how much of TeX's memory you used:
+ 4521 strings out of 427798
+ 62185 string characters out of 3147262
+ 200862 words of memory out of 3000000
+ 8485 multiletter control sequences out of 15000+200000
+ 34258 words of font info for 55 fonts, out of 3000000 for 9000
+ 1328 hyphenation exceptions out of 8191
+ 41i,9n,50p,771b,273s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on formal_letter_2.pdf (2 pages).

@@ -1,0 +1,81 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Elmueller Formal Letter
+% LaTeX Template
+% Version 1.3 (20/11/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Micha Elmueller (http://micha.elmueller.net/) with modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+	pagenumber=false, % Removes page numbers from page 2 onwards when false
+	parskip=half, % Separates paragraphs with some whitespace, use parskip=full for more space or comment out to return to default
+	fromalign=right, % Aligns the from address to the right
+	foldmarks=true, % Prints small fold marks on the left of the page
+	addrfield=true % Set to false to hide the addressee section - you will then want to adjust the height of the body of the letter on the page by adding the following in this section: \makeatletter \@setplength{refvpos}{\useplength{toaddrvpos}} \makeatletter
+	]{scrlttr2}
+
+\usepackage[T1]{fontenc} % For extra glyphs (accents, etc)
+\usepackage{stix} % Use the Stix font by default
+
+\usepackage[german]{babel} % Explicitly load the babel package to stop an error occurring on some LaTeX installations
+
+\renewcommand*{\raggedsignature}{\raggedright} % Stop the signature from indenting
+
+%----------------------------------------------------------------------------------------
+%	YOUR INFORMATION AND LETTER DATE
+%----------------------------------------------------------------------------------------
+
+\setkomavar{fromname}{Andreas Gerold} % Your name used in the from address
+
+\setkomavar{fromaddress}{Kapellenstr. 6a\\82362 Weilheim} % Your address
+
+\setkomavar{signature}{Andreas Gerold} % Your name used in the signature
+
+\date{\today} % Date of the letter
+
+%----------------------------------------------------------------------------------------
+ 
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	ADDRESSEE
+%----------------------------------------------------------------------------------------
+ 
+\begin{letter}{
+RS
+} % Addressee name and address
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+\opening{Sehr geehrte Damen und Herren,}
+
+durch ihren Mitarbeiter Daniel Schleipfer bin ich auf die Stelle als Full-Stack Web-Application Developer (Ref. DE-MUC-50621882-008) aufmerksam geworden.\\
+Seit etwas über drei Jahren entwickle ich für meinen aktuellen Arbeitgeber Magna Steyr Engineering Deutschland, der zum weltweit agierenden Konzern Magna Internationl gehört, individuelle, web-basierte Software für die Entwicklungsprojekte in München. Mein Background aus der Elektrotechnik und meine Erfahrung aus den Jahren als Entwicklungsingenieur und Werkstudent helfen hierbei, auch fremde Systeme wie Datenlogger oder Fahrzeuge zur Prozessautomatisierung anzubinden.\\
+Sowohl mein breit gefächertes Interesse als auch meine schnelle Auffassungsgabe haben in den vergangenen acht Jahren dazu beigetragen, dass ich neben dem Studium auch verschiedenste Bereiche der automotive Forschung und Entwicklung aus nächster Nähe erleben konnte. Obwohl mir Programmieren schon im Studium stets leicht gefallen ist, hätte ich zum damligen Zeitpunkt nicht damit gerechnet, dass mich gerade die Softwareentwicklung beruflich einmal so faszinieren würde, dass ich meine Karriere in diese Richtung lenken möchte. Besonders spannend ist dabei auch der agile Prozess von der Idee bis zu Implementierung, bei dem alle Teammitglieder sich wie Zahnräder gegenseitig antreiben, unterstützen und doch jeder seinen spezifischen Platz hat.\\
+Die Firma Rohde \& Schwarz ist jedem Elektrotechnik Studenten in München ein Begriff. 
+
+\closing{Beste Grüße,}
+
+\setkomavar*{enclseparator}{Anhang} % Change the default "encl:" to "Attached:"
+\encl{Copyright permission form} % Attached documents
+
+%----------------------------------------------------------------------------------------
+
+\end{letter}
+ 
+\end{document}
